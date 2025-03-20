@@ -102,3 +102,6 @@ fn cache_image(meme: &Smegameme) -> Result<std::fs::File, Box<dyn std::error::Er
 
     Ok(frame)
 }
+
+// -s, --series      1 to 14
+// -e, --episode     1 to 8 with series, 1 to 74 without
